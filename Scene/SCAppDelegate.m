@@ -8,7 +8,7 @@
 
 #import "SCAppDelegate.h"
 
-#import "SCMainViewController.h"
+#import "SCNearbyProfilesCollectionViewController.h"
 
 @implementation SCAppDelegate
 
@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    SCMainViewController *controller = (SCMainViewController *)self.window.rootViewController;
+    SCNearbyProfilesCollectionViewController *controller = (SCNearbyProfilesCollectionViewController *)self.window.rootViewController;
     controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }

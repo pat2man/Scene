@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE07C4D41890C25E00032CAD /* ExampleImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE07C4D21890C25E00032CAD /* ExampleImage.jpeg */; };
+		CE07C4D51890C25E00032CAD /* ExampleImage@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE07C4D31890C25E00032CAD /* ExampleImage@2x.jpg */; };
+		CE07C4D81890C2F800032CAD /* SCNearbyProfilesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07C4D71890C2F800032CAD /* SCNearbyProfilesCollectionViewController.m */; };
+		CE07C4DB1890C33900032CAD /* SCProfileCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07C4DA1890C33900032CAD /* SCProfileCollectionViewCell.m */; };
+		CE07C4DF1890C61F00032CAD /* UserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07C4DE1890C61F00032CAD /* UserProfile.m */; };
+		CE07C4E21890C61F00032CAD /* Beacon.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07C4E11890C61F00032CAD /* Beacon.m */; };
 		CE904F8F1890A1BD00BD06E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE904F8E1890A1BD00BD06E6 /* Foundation.framework */; };
 		CE904F911890A1BD00BD06E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE904F901890A1BD00BD06E6 /* CoreGraphics.framework */; };
 		CE904F931890A1BD00BD06E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE904F921890A1BD00BD06E6 /* UIKit.framework */; };
@@ -17,8 +23,6 @@
 		CE904FA41890A1BD00BD06E6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE904FA21890A1BD00BD06E6 /* Main_iPhone.storyboard */; };
 		CE904FA71890A1BD00BD06E6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE904FA51890A1BD00BD06E6 /* Main_iPad.storyboard */; };
 		CE904FAA1890A1BD00BD06E6 /* Scene.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE904FA81890A1BD00BD06E6 /* Scene.xcdatamodeld */; };
-		CE904FAD1890A1BD00BD06E6 /* SCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE904FAC1890A1BD00BD06E6 /* SCMainViewController.m */; };
-		CE904FB01890A1BD00BD06E6 /* SCFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE904FAF1890A1BD00BD06E6 /* SCFlipsideViewController.m */; };
 		CE904FB21890A1BD00BD06E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE904FB11890A1BD00BD06E6 /* Images.xcassets */; };
 		CE904FB91890A1BE00BD06E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE904FB81890A1BE00BD06E6 /* XCTest.framework */; };
 		CE904FBA1890A1BE00BD06E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE904F8E1890A1BD00BD06E6 /* Foundation.framework */; };
@@ -39,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE07C4D21890C25E00032CAD /* ExampleImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ExampleImage.jpeg; sourceTree = "<group>"; };
+		CE07C4D31890C25E00032CAD /* ExampleImage@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ExampleImage@2x.jpg"; sourceTree = "<group>"; };
+		CE07C4D61890C2F800032CAD /* SCNearbyProfilesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNearbyProfilesCollectionViewController.h; sourceTree = "<group>"; };
+		CE07C4D71890C2F800032CAD /* SCNearbyProfilesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNearbyProfilesCollectionViewController.m; sourceTree = "<group>"; };
+		CE07C4D91890C33900032CAD /* SCProfileCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCProfileCollectionViewCell.h; sourceTree = "<group>"; };
+		CE07C4DA1890C33900032CAD /* SCProfileCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCProfileCollectionViewCell.m; sourceTree = "<group>"; };
+		CE07C4DD1890C61F00032CAD /* UserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfile.h; sourceTree = "<group>"; };
+		CE07C4DE1890C61F00032CAD /* UserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfile.m; sourceTree = "<group>"; };
+		CE07C4E01890C61F00032CAD /* Beacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beacon.h; sourceTree = "<group>"; };
+		CE07C4E11890C61F00032CAD /* Beacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beacon.m; sourceTree = "<group>"; };
 		CE904F8B1890A1BD00BD06E6 /* Scene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scene.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE904F8E1890A1BD00BD06E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE904F901890A1BD00BD06E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,10 +67,6 @@
 		CE904FA31890A1BD00BD06E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		CE904FA61890A1BD00BD06E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		CE904FA91890A1BD00BD06E6 /* Scene.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scene.xcdatamodel; sourceTree = "<group>"; };
-		CE904FAB1890A1BD00BD06E6 /* SCMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMainViewController.h; sourceTree = "<group>"; };
-		CE904FAC1890A1BD00BD06E6 /* SCMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMainViewController.m; sourceTree = "<group>"; };
-		CE904FAE1890A1BD00BD06E6 /* SCFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFlipsideViewController.h; sourceTree = "<group>"; };
-		CE904FAF1890A1BD00BD06E6 /* SCFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFlipsideViewController.m; sourceTree = "<group>"; };
 		CE904FB11890A1BD00BD06E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE904FB71890A1BD00BD06E6 /* SceneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SceneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE904FB81890A1BE00BD06E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -91,6 +101,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE07C4DC1890C58800032CAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE07C4E01890C61F00032CAD /* Beacon.h */,
+				CE07C4E11890C61F00032CAD /* Beacon.m */,
+				CE07C4DD1890C61F00032CAD /* UserProfile.h */,
+				CE07C4DE1890C61F00032CAD /* UserProfile.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		CE904F821890A1BD00BD06E6 = {
 			isa = PBXGroup;
 			children = (
@@ -125,17 +146,20 @@
 		CE904F961890A1BD00BD06E6 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				CE07C4DC1890C58800032CAD /* Models */,
+				CE07C4D21890C25E00032CAD /* ExampleImage.jpeg */,
+				CE07C4D31890C25E00032CAD /* ExampleImage@2x.jpg */,
 				CE904F9F1890A1BD00BD06E6 /* SCAppDelegate.h */,
 				CE904FA01890A1BD00BD06E6 /* SCAppDelegate.m */,
 				CE904FA21890A1BD00BD06E6 /* Main_iPhone.storyboard */,
 				CE904FA51890A1BD00BD06E6 /* Main_iPad.storyboard */,
-				CE904FAB1890A1BD00BD06E6 /* SCMainViewController.h */,
-				CE904FAC1890A1BD00BD06E6 /* SCMainViewController.m */,
-				CE904FAE1890A1BD00BD06E6 /* SCFlipsideViewController.h */,
-				CE904FAF1890A1BD00BD06E6 /* SCFlipsideViewController.m */,
 				CE904FB11890A1BD00BD06E6 /* Images.xcassets */,
 				CE904FA81890A1BD00BD06E6 /* Scene.xcdatamodeld */,
 				CE904F971890A1BD00BD06E6 /* Supporting Files */,
+				CE07C4D61890C2F800032CAD /* SCNearbyProfilesCollectionViewController.h */,
+				CE07C4D71890C2F800032CAD /* SCNearbyProfilesCollectionViewController.m */,
+				CE07C4D91890C33900032CAD /* SCProfileCollectionViewCell.h */,
+				CE07C4DA1890C33900032CAD /* SCProfileCollectionViewCell.m */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -246,8 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE07C4D41890C25E00032CAD /* ExampleImage.jpeg in Resources */,
 				CE904FA71890A1BD00BD06E6 /* Main_iPad.storyboard in Resources */,
 				CE904FB21890A1BD00BD06E6 /* Images.xcassets in Resources */,
+				CE07C4D51890C25E00032CAD /* ExampleImage@2x.jpg in Resources */,
 				CE904FA41890A1BD00BD06E6 /* Main_iPhone.storyboard in Resources */,
 				CE904F9B1890A1BD00BD06E6 /* InfoPlist.strings in Resources */,
 			);
@@ -270,9 +296,11 @@
 			files = (
 				CE904FA11890A1BD00BD06E6 /* SCAppDelegate.m in Sources */,
 				CE904FAA1890A1BD00BD06E6 /* Scene.xcdatamodeld in Sources */,
+				CE07C4DF1890C61F00032CAD /* UserProfile.m in Sources */,
 				CE904F9D1890A1BD00BD06E6 /* main.m in Sources */,
-				CE904FB01890A1BD00BD06E6 /* SCFlipsideViewController.m in Sources */,
-				CE904FAD1890A1BD00BD06E6 /* SCMainViewController.m in Sources */,
+				CE07C4E21890C61F00032CAD /* Beacon.m in Sources */,
+				CE07C4D81890C2F800032CAD /* SCNearbyProfilesCollectionViewController.m in Sources */,
+				CE07C4DB1890C33900032CAD /* SCProfileCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +515,7 @@
 				CE904FCB1890A1BE00BD06E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE904FCC1890A1BE00BD06E6 /* Build configuration list for PBXNativeTarget "SceneTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +524,7 @@
 				CE904FCE1890A1BE00BD06E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
